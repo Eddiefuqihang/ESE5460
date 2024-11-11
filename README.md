@@ -34,13 +34,21 @@ For implementation, we plan to use Hugging Face Transformers. We will utilize pr
 **Other Related Papers:**
 
 1. **MuRAG: Multimodal Retrieval-Augmented Generator for Open Question Answering over Images and Text**
+
    *Summary:* MuRAG combines retrieval-augmented generation with multimodal inputs to enhance open-domain question answering capabilities.
+
    *Link:* [ArXiv](https://arxiv.org/abs/2210.02928)
+
 2. **MIMOQA: Multimodal Input Multimodal Output Question Answering**
+
    *Summary:* This work proposes a QA system that handles both multimodal inputs and outputs, demonstrating improved cognitive understanding through multimodal responses.
+
    *Link:* [ACL Anthology](https://aclanthology.org/2021.naacl-main.418/)
+
 3. **FlowVQA: Mapping Multimodal Logic in Visual Question Answering with Flowcharts**
+
    *Summary:* FlowVQA introduces a benchmark for evaluating visual question-answering models' reasoning abilities using flowcharts as visual contexts.
+
    *Link:* [ArXiv](https://arxiv.org/abs/2406.19237)
 
 ---
@@ -48,19 +56,33 @@ For implementation, we plan to use Hugging Face Transformers. We will utilize pr
 **Related Datasets:**
 
 1. **ScienceQA**
+
    *Description:* A benchmark comprising 21,208 multimodal multiple-choice questions covering diverse science topics, annotated with corresponding lectures and explanations.
+
    *Link:* [GitHub](https://github.com/lupantech/ScienceQA)
+
 2. **MultiModalQA**
+
    *Description:* A challenging dataset requiring joint reasoning over text, tables, and images, consisting of 29,918 examples.
+
    *Link:* [GitHub](https://github.com/allenai/multimodalqa)
+
 3. **SPIQA**
+
    *Description:* A dataset designed for multimodal question answering on scientific papers, focusing on interpreting complex figures and tables within research articles.
+
    *Link:* [GitHub](https://github.com/google/spiqa)
+
 4. **MMToM-QA**
+
    *Description:* A dataset aimed at evaluating models' Theory of Mind capabilities through multimodal question answering tasks.
+
    *Link:* [ArXiv](https://arxiv.org/abs/2401.08743)
+
 5. **FlowVQA**
+
    *Description:* A benchmark designed to assess visual question-answering models' reasoning abilities using flowcharts as visual contexts.
+
    *Link:* [ArXiv](https://arxiv.org/abs/2406.19237)
 
 ---
