@@ -96,19 +96,19 @@ For implementation, we plan to use Hugging Face Transformers. We will utilize pr
    - **Audio Snippet Extraction**: Segment audio tracks to align with the selected keyframes, ensuring that the audio context matches the visual content.
    - **Content Categorization**: Employ pre-trained classifiers (e.g., ResNet for images, VGGish for audio) to categorize visual and audio content into semantic labels such as actions, objects, and sounds.
 
-   **Tokenization and Fusion**:
+2. **Tokenization and Fusion**:
 
    - **Differentiable Tokenization**: Convert categorized visual and audio elements into embeddings within a shared semantic space. This involves mapping each modality's features into a common vector space, facilitating seamless integration.
    - **Modality Fusion**: Combine visual and audio embeddings using techniques like concatenation or summation to create a unified representation. This fusion process enables the model to process multimodal information cohesively.
    - **Question Embedding**: Encode the input question using a language model (e.g., BERT) to generate a contextual representation that will guide the attention mechanism in subsequent stages.
 
-   **Cross-Attention QA Model**:
+3. **Cross-Attention QA Model**:
 
    - **Model Architecture**: Design a transformer-based model incorporating cross-attention layers that allow the question embedding to attend to the fused multimodal representation. This setup enables the model to focus on relevant parts of the video and audio in relation to the question.
    - **Generative Decoder**: Implement a decoder that generates natural language answers based on the attended multimodal context. The decoder will produce coherent and contextually appropriate responses to the input questions.
    - **Training Strategy**: Train the model using a combination of supervised learning with cross-entropy loss and reinforcement learning techniques to optimize answer accuracy and fluency.
 
-   **Evaluation**:
+4. **Evaluation**:
 
    - **Performance Metrics**: Assess the model's performance using metrics such as BLEU, METEOR, and ROUGE to evaluate the quality of generated answers in terms of precision, recall, and overall coherence.
    - **Baseline Comparison**: Compare the proposed model's performance against established baselines, including traditional multimodal QA models and unimodal counterparts, to demonstrate the effectiveness of the multimodal approach.
@@ -126,7 +126,7 @@ For implementation, we plan to use Hugging Face Transformers. We will utilize pr
 | Training & Tuning                   | 1 week         | Qihang & Ziyang & Yi     |
 | Evaluation & Reporting              | 1 week         | Qihang & Ziyang & Yi     |
 
-**Week One**
+**1. Week One**
 - Qihang: Model Design
 - Ziyang: Dataset Selection
 - Yi: Related Work Summary
